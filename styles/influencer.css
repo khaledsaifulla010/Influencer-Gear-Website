@@ -44,6 +44,29 @@ nav {
 
 /* Banner styles starts */
 
-.banner-image{
-    
+.banner-tittle {
+    color: #3A3A3A;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #3A3A3A;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.banner-image {
+    border-radius: 475px;
+    border: 3px solid var(--brand-purple-100, #F1E4FF);
+    background-image: url('../images/Circle\ design.svg');
+    width: 475px;
+    height: 475px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
 }
